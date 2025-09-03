@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  # Base de données MySQL
+  mysql:
+    image: mariadb:10.6
+    platform: linux/amd64
+    container_name: portfolio_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: portfolio_db
+      MYSQL_USER: portfolio_user
+      MYSQL_PASSWORD: portfolio_password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d:ro
+    networks:
+      - portfolio_network
+
+  # phpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    platform: linux/amd64
+    container_name: portfolio_phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: portfolio_user
+      PMA_PASSWORD: portfolio_password
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    networks:
+      - portfolio_network
+
+  # Backend Spring Boot
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: portfolio_backend
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/portfolio_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=portfolio_user
+      - SPRING_DATASOURCE_PASSWORD=portfolio_password
+    depends_on:
+      - mysql
+    networks:
+      - portfolio_network
+    volumes:
+      - ./uploads:/app/uploads
+
+volumes:
+  mysql_data:
+
+networks:
+  portfolio_network:
+    driver: bridge
