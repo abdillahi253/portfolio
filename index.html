@@ -290,6 +290,7 @@
     position: absolute;
     bottom: -20px;
     right: -20px;
+    z-index: 2;
     width: 100px;
     height: 100px;
     background: var(--accent);
@@ -887,16 +888,16 @@
 
 <!-- NAVIGATION -->
 <nav>
-  <a href="#" onclick="scrollTo('hero')" class="nav-logo">AM.</a>
+  <a href="#hero" class="nav-logo">AM.</a>
   <button class="burger" id="burger" aria-label="Menu" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </button>
   <ul class="nav-links" id="navLinks">
-    <li><a href="#" onclick="scrollTo('about')">À propos</a></li>
-    <li><a href="#" onclick="scrollTo('skills')">Compétences</a></li>
-    <li><a href="#" onclick="scrollTo('experience')">Expériences</a></li>
-    <li><a href="#" onclick="scrollTo('projects')">Projets</a></li>
-    <li><a href="#" onclick="scrollTo('contact')">Contact</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#experience">Expériences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#" class="nav-cta" onclick="downloadCV(event)">CV ↓</a></li>
   </ul>
 </nav>
@@ -910,7 +911,7 @@
       <h1>Abdillahi<br><em>Mohamed</em></h1>
       <p class="hero-desc">Futur ingénieur passionné par l'optimisation DevSecOps et l'IA. Je conçois des infrastructures CI/CD sécurisées, performantes et pilotées par la donnée.</p>
       <div class="hero-actions">
-        <a href="#" onclick="scrollTo('contact')" class="btn btn-primary">
+        <a href="#contact" class="btn btn-primary">
           Me contacter
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
@@ -1285,22 +1286,11 @@
 <footer>
   <span>© 2025 Abdillahi Mohamed — DevSecOps Engineer ✦</span>
   <span>Paris, Île-de-France</span>
-  <a href="#" onclick="scrollTo('hero')">↑ Retour en haut</a>
+  <a href="#hero">↑ Retour en haut</a>
 </footer>
 
 <script>
-  // ---- SMOOTH SCROLL ----
-  function scrollTo(id) {
-    event.preventDefault();
-    const el = document.getElementById(id);
-    if (!el) return;
-    const navH = document.querySelector('nav').offsetHeight;
-    const top = el.getBoundingClientRect().top + window.scrollY - navH - 8;
-    window.scrollTo({ top, behavior: 'smooth' });
-    // Fermer le menu mobile si ouvert
-    document.getElementById('burger').classList.remove('open');
-    document.getElementById('navLinks').classList.remove('open');
-  }
+  
 
   // ---- BURGER MENU ----
   function toggleMenu() {
