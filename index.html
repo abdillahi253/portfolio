@@ -315,6 +315,15 @@
     line-height: 1;
   }
 
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Permet à l'image de remplir le cadre sans être écrasée */
+    border-radius: inherit; /* Reprend la forme arrondie du cadre */
+    position: relative;
+    z-index: 1; /* S'assure que l'image reste au-dessus du fond dégradé */
+  }
+
   /* SECTIONS COMMONS */
   section { padding: 100px 60px; }
 
@@ -927,7 +936,8 @@
     </div>
     <div class="hero-visual">
       <div class="avatar-frame">
-        <span class="avatar-initials">AM</span>
+        <img src="chemin/vers/ta-photo.jpg" alt="Photo de profil de Abdillahi Mohamed" class="avatar-img">
+        
         <div class="avatar-badge">
           <div class="avatar-badge-inner">✦</div>
           <span style="font-size:0.55rem;letter-spacing:0.05em">OPEN<br>TO WORK</span>
