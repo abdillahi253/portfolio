@@ -27,7 +27,7 @@ window.TRANSLATIONS = {
       "Expert en automatisation, IaC et CI/CD. Passionné par la fiabilité des plateformes, le scripting Go et l'optimisation des environnements Cloud-Native sous Kubernetes.",
     'hero.contactBtn': 'Me contacter',
     'hero.cvBtn': 'Télécharger mon CV',
-    'hero.stat1': 'Stages réalisés',
+    'hero.stat1': 'Expériences pro.',
     'hero.stat2': 'Projets techniques',
     'hero.stat3': 'Langues parlées',
     'hero.badge': 'OPEN<br>TO WORK',
@@ -37,7 +37,7 @@ window.TRANSLATIONS = {
     'about.tag': 'À propos',
     'about.title': 'Qui suis-je ?',
     'about.p1':
-      "Je suis <strong>Abdillahi Mohamed</strong>, étudiant en Master Ingénierie Réseaux &amp; Systèmes à l'Université Paris-Saclay et actuellement <strong>stagiaire Ingénieur DevSecOps chez Schneider Electric</strong>. Je serai disponible en <strong>septembre 2026</strong>.",
+      "Je suis <strong>Abdillahi Mohamed</strong>, diplômé du Master Ingénierie Réseaux &amp; Systèmes de l'Université Paris-Saclay, que j'ai suivi en <strong>alternance d'Ingénieur DevSecOps chez Schneider Electric</strong>. Je suis disponible dès <strong>septembre 2026</strong>.",
     'about.p2':
       "Mon terrain de jeu : l'<strong>automatisation</strong>, l'Infrastructure as Code et les pipelines CI/CD. Je conçois des plateformes Cloud-Native fiables sur Kubernetes et AWS, du provisionnement Terraform jusqu'à l'observabilité VictoriaMetrics / Grafana.",
     'about.p3':
@@ -80,8 +80,8 @@ window.TRANSLATIONS = {
     'exp.tag': 'Expériences',
     'exp.title': 'Parcours professionnel',
 
-    'exp.job1Date': 'Avr. 2026 — Sept. 2026',
-    'exp.job1Role': 'Stage Ingénieur DevSecOps',
+    'exp.job1Date': 'Sept. 2025 — Août 2026',
+    'exp.job1Role': 'Alternance Ingénieur DevSecOps',
     'exp.job1Desc':
       "<ul><li>Automatiser le build et le déploiement d'images Yocto complexes, de firmwares applicatifs et des campagnes de tests (SIL, HIL, non-régression).</li><li>Piloter les pipelines CI/CD dans une démarche DevSecOps : sécurité Shift-Left et analyses pilotées par l'IA.</li><li>Déployer une infrastructure de build CI/CD sur AWS basée sur une architecture Runner-as-a-Service (RaaS).</li><li>Déployer et administrer une infrastructure de supervision Grafana et VictoriaMetrics sur AKS.</li></ul>",
 
@@ -197,7 +197,7 @@ window.TRANSLATIONS = {
       'Automation, IaC and CI/CD specialist. Passionate about platform reliability, Go scripting and optimising Cloud-Native environments on Kubernetes.',
     'hero.contactBtn': 'Get in touch',
     'hero.cvBtn': 'Download my resume',
-    'hero.stat1': 'Internships completed',
+    'hero.stat1': 'Professional experiences',
     'hero.stat2': 'Technical projects',
     'hero.stat3': 'Languages spoken',
     'hero.badge': 'OPEN<br>TO WORK',
@@ -207,7 +207,7 @@ window.TRANSLATIONS = {
     'about.tag': 'About',
     'about.title': 'Who am I?',
     'about.p1':
-      "I'm <strong>Abdillahi Mohamed</strong>, a Master's student in Network &amp; Systems Engineering at Université Paris-Saclay, currently a <strong>DevSecOps Engineer intern at Schneider Electric</strong>. I will be available from <strong>September 2026</strong>.",
+      "I'm <strong>Abdillahi Mohamed</strong>, a graduate of the Master's in Network &amp; Systems Engineering at Université Paris-Saclay, which I completed as a <strong>DevSecOps Engineer apprentice at Schneider Electric</strong>. I am available from <strong>September 2026</strong>.",
     'about.p2':
       'My playground: <strong>automation</strong>, Infrastructure as Code and CI/CD pipelines. I build reliable Cloud-Native platforms on Kubernetes and AWS, from Terraform provisioning all the way to VictoriaMetrics / Grafana observability.',
     'about.p3':
@@ -250,8 +250,8 @@ window.TRANSLATIONS = {
     'exp.tag': 'Experience',
     'exp.title': 'Professional background',
 
-    'exp.job1Date': 'Apr. 2026 — Sept. 2026',
-    'exp.job1Role': 'DevSecOps Engineer Intern',
+    'exp.job1Date': 'Sept. 2025 — Aug. 2026',
+    'exp.job1Role': 'DevSecOps Engineer Apprentice',
     'exp.job1Desc':
       '<ul><li>Automating the build and deployment of complex Yocto images, application firmware and test campaigns (SIL, HIL, regression).</li><li>Driving CI/CD pipelines with a DevSecOps mindset: Shift-Left security and AI-driven analysis.</li><li>Deploying a CI/CD build infrastructure on AWS based on a Runner-as-a-Service (RaaS) architecture.</li><li>Deploying and operating a Grafana and VictoriaMetrics monitoring stack on AKS.</li></ul>',
 
