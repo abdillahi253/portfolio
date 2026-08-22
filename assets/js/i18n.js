@@ -251,17 +251,17 @@ window.TRANSLATIONS = {
     'exp.title': 'Professional background',
 
     'exp.job1Date': 'Sept. 2025 — Aug. 2026',
-    'exp.job1Role': 'DevSecOps Engineer Apprentice',
+    'exp.job1Role': 'DevSecOps Engineer',
     'exp.job1Desc':
       '<ul><li>Automating the build and deployment of complex Yocto images, application firmware and test campaigns (SIL, HIL, regression).</li><li>Driving CI/CD pipelines with a DevSecOps mindset: Shift-Left security and AI-driven analysis.</li><li>Deploying a CI/CD build infrastructure on AWS based on a Runner-as-a-Service (RaaS) architecture.</li><li>Deploying and operating a Grafana and VictoriaMetrics monitoring stack on AKS.</li></ul>',
 
     'exp.job2Date': 'May 2025 — Aug. 2025',
-    'exp.job2Role': 'DevOps Engineer Intern',
+    'exp.job2Role': 'DevOps Intern',
     'exp.job2Desc':
       '<ul><li>Industrialised CI/CD pipelines with GitLab CI to shorten release cycles.</li><li>Containerised web applications with Docker to standardise environments.</li><li>Monitored application traffic and health using Prometheus and Grafana.</li></ul>',
 
     'exp.job3Date': 'May 2023 — Sept. 2023',
-    'exp.job3Role': 'System & Network Administrator Intern',
+    'exp.job3Role': 'SysAdmin Intern',
     'exp.job3Desc':
       '<ul><li>Maintained and administered Linux system infrastructures.</li><li>Secured network access and communication flows through the RADIUS protocol.</li><li>Wrote operating and technical administration procedures for 120 users.</li></ul>',
 
