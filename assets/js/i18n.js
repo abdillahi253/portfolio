@@ -81,17 +81,17 @@ window.TRANSLATIONS = {
     'exp.title': 'Parcours professionnel',
 
     'exp.job1Date': 'Sept. 2025 — Août 2026',
-    'exp.job1Role': 'Alternance Ingénieur DevSecOps',
+    'exp.job1Role': 'Ingénieur DevSecOps',
     'exp.job1Desc':
       "<ul><li>Automatiser le build et le déploiement d'images Yocto complexes, de firmwares applicatifs et des campagnes de tests (SIL, HIL, non-régression).</li><li>Piloter les pipelines CI/CD dans une démarche DevSecOps : sécurité Shift-Left et analyses pilotées par l'IA.</li><li>Déployer une infrastructure de build CI/CD sur AWS basée sur une architecture Runner-as-a-Service (RaaS).</li><li>Déployer et administrer une infrastructure de supervision Grafana et VictoriaMetrics sur AKS.</li></ul>",
 
     'exp.job2Date': 'Mai 2025 — Août 2025',
-    'exp.job2Role': 'Stage Ingénieur DevOps',
+    'exp.job2Role': 'Ingénieur DevOps',
     'exp.job2Desc':
       '<ul><li>Industrialiser les pipelines CI/CD sous GitLab CI pour accélérer les cycles de mise en production.</li><li>Conteneuriser les applications web via Docker afin de standardiser les environnements.</li><li>Superviser les flux et la santé des applications à l\u2019aide de Prometheus et Grafana.</li></ul>',
 
     'exp.job3Date': 'Mai 2023 — Sept. 2023',
-    'exp.job3Role': 'Stage Administrateur Système & Réseaux',
+    'exp.job3Role': 'Administrateur Système & Réseaux',
     'exp.job3Desc':
       "<ul><li>Maintenir et administrer les infrastructures systèmes Linux.</li><li>Sécuriser les accès réseaux et les flux de communication via le protocole RADIUS.</li><li>Rédiger les procédures d'exploitation et d'administration technique pour 120 utilisateurs.</li></ul>",
 
@@ -339,6 +339,6 @@ window.TRANSLATIONS = {
     'footer.top': '↑ Back to top',
 
     /* --- CV --- */
-    'cv.filename': 'Resume_Abdillahi_Mohamed_DevSecOps.pdf',
+    'cv.filename': 'CV_Abdillahi_Mohamed_DevSecOps.pdf',
   },
 };
