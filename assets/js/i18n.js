@@ -17,7 +17,6 @@ window.TRANSLATIONS = {
     'nav.cv': 'CV ↓',
     'nav.langLabel': 'Passer en anglais',
     'nav.langSwitch': 'EN',
-    'nav.themeLabel': 'Basculer le thème clair / sombre',
     'nav.menuLabel': 'Menu',
 
     /* --- HERO --- */
@@ -30,7 +29,6 @@ window.TRANSLATIONS = {
     'hero.stat1': 'Expériences pro.',
     'hero.stat2': 'Projets techniques',
     'hero.stat3': 'Langues parlées',
-    'hero.badge': 'OPEN<br>TO WORK',
     'hero.photoAlt': 'Photo de profil de Abdillahi Mohamed',
 
     /* --- ABOUT --- */
@@ -187,7 +185,6 @@ window.TRANSLATIONS = {
     'nav.cv': 'Resume ↓',
     'nav.langLabel': 'Switch to French',
     'nav.langSwitch': 'FR',
-    'nav.themeLabel': 'Toggle light / dark theme',
     'nav.menuLabel': 'Menu',
 
     /* --- HERO --- */
@@ -200,7 +197,6 @@ window.TRANSLATIONS = {
     'hero.stat1': 'Professional experiences',
     'hero.stat2': 'Technical projects',
     'hero.stat3': 'Languages spoken',
-    'hero.badge': 'OPEN<br>TO WORK',
     'hero.photoAlt': 'Profile picture of Abdillahi Mohamed',
 
     /* --- ABOUT --- */

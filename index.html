@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme="light">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Abdillahi Mohamed — Ingénieur DevSecOps</title>
 <meta name="description" content="Portfolio d'Abdillahi Mohamed, ingénieur DevSecOps. Automatisation, IaC, CI/CD, Kubernetes, AWS et observabilité.">
-<meta name="theme-color" content="#f6f4ef">
+<meta name="theme-color" content="#0c0c0e">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-<script>
-  // Applique le thème enregistré avant le rendu pour éviter tout flash de couleur
-  (function () {
-    try {
-      var saved = localStorage.getItem('portfolio-theme');
-      document.documentElement.setAttribute('data-theme', saved === 'dark' ? 'dark' : 'light');
-    } catch (e) {}
-  })();
-</script>
 </head>
 <body>
 
@@ -40,16 +31,6 @@
   <div class="nav-tools">
     <button type="button" class="icon-btn" id="langToggle" data-i18n="nav.langSwitch" data-i18n-aria="nav.langLabel" aria-label="Passer en anglais">EN</button>
 
-    <button type="button" class="icon-btn" id="themeToggle" data-i18n-aria="nav.themeLabel" aria-label="Basculer le thème clair / sombre">
-      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="4"></circle>
-        <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
-      </svg>
-      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
-      </svg>
-    </button>
-
     <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="navLinks" data-i18n-aria="nav.menuLabel" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
@@ -59,6 +40,11 @@
 <!-- HERO -->
 <section id="hero">
   <div class="hero-bg" aria-hidden="true"></div>
+
+  <div class="hero-photo">
+    <img src="designedpic.jpg" class="hero-photo-img" data-i18n-alt="hero.photoAlt" alt="Photo de profil de Abdillahi Mohamed">
+  </div>
+
   <div class="hero-grid">
     <div class="hero-content">
       <div class="hero-tag" data-i18n="hero.tag">Ingénieur DevSecOps — Disponible Septembre 2026</div>
@@ -88,18 +74,6 @@
         <div>
           <div class="stat-num">2</div>
           <div class="stat-label" data-i18n="hero.stat3">Langues parlées</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero-visual">
-      <div class="avatar-wrap">
-        <div class="avatar-frame">
-          <img src="picofme.png" class="avatar-img" data-i18n-alt="hero.photoAlt" alt="Photo de profil de Abdillahi Mohamed">
-        </div>
-        <div class="avatar-badge">
-          <div class="avatar-badge-inner" aria-hidden="true">✦</div>
-          <span class="avatar-badge-text" data-i18n-html="hero.badge">OPEN<br>TO WORK</span>
         </div>
       </div>
     </div>

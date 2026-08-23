@@ -7,7 +7,6 @@
   'use strict';
 
   var STORAGE_LANG = 'portfolio-lang';
-  var STORAGE_THEME = 'portfolio-theme';
   var SUPPORTED_LANGS = ['fr', 'en'];
   var dict = window.TRANSLATIONS || {};
 
@@ -85,21 +84,6 @@
   }
 
   /* --------------------------------------------------------
-     THÈME CLAIR / SOMBRE
-     -------------------------------------------------------- */
-  function applyTheme(theme) {
-    var next = theme === 'dark' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next);
-    var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', next === 'dark' ? '#0c0c0e' : '#f6f4ef');
-    writeStore(STORAGE_THEME, next);
-  }
-
-  function currentTheme() {
-    return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-  }
-
-  /* --------------------------------------------------------
      MENU MOBILE
      -------------------------------------------------------- */
   var burger = document.getElementById('burger');
@@ -124,19 +108,12 @@
   }
 
   /* --------------------------------------------------------
-     BOUTONS LANGUE & THÈME
+     BOUTON LANGUE
      -------------------------------------------------------- */
   var langToggle = document.getElementById('langToggle');
   if (langToggle) {
     langToggle.addEventListener('click', function () {
       applyLang(currentLang === 'fr' ? 'en' : 'fr');
-    });
-  }
-
-  var themeToggle = document.getElementById('themeToggle');
-  if (themeToggle) {
-    themeToggle.addEventListener('click', function () {
-      applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');
     });
   }
 
@@ -222,6 +199,5 @@
   /* --------------------------------------------------------
      INITIALISATION
      -------------------------------------------------------- */
-  applyTheme(readStore(STORAGE_THEME) || 'light');
   applyLang(detectLang());
 })();
