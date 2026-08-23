@@ -170,7 +170,7 @@ window.TRANSLATIONS = {
     'footer.top': '↑ Retour en haut',
 
     /* --- CV --- */
-    'cv.filename': 'CV_Abdillahi_Mohamed_DevSecOps.pdf',
+    'cv.filename': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
   },
 
   en: {
@@ -339,6 +339,6 @@ window.TRANSLATIONS = {
     'footer.top': '↑ Back to top',
 
     /* --- CV --- */
-    'cv.filename': 'CV_Abdillahi_Mohamed_DevSecOps.pdf',
+    'cv.filename': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
   },
 };
