@@ -162,7 +162,7 @@ window.TRANSLATIONS = {
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.phoneLabel': 'Téléphone',
-    'contact.cvFull': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
+    'contact.cvFull': 'CV_Abdillahi_DevSecOps-Engineer.pdf',
 
     /* --- FOOTER --- */
     'footer.copy': '© 2026 Abdillahi Mohamed — Ingénieur DevSecOps ✦',
@@ -331,7 +331,7 @@ window.TRANSLATIONS = {
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.phoneLabel': 'Phone',
-    'contact.cvFull': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
+    'contact.cvFull': 'CV_Abdillahi_DevSecOps-Engineer.pdf',
 
     /* --- FOOTER --- */
     'footer.copy': '© 2026 Abdillahi Mohamed — DevSecOps Engineer ✦',
