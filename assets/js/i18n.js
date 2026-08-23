@@ -162,7 +162,7 @@ window.TRANSLATIONS = {
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.phoneLabel': 'Téléphone',
-    'contact.cvFull': 'Télécharger mon CV complet',
+    'contact.cvFull': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
 
     /* --- FOOTER --- */
     'footer.copy': '© 2026 Abdillahi Mohamed — Ingénieur DevSecOps ✦',
@@ -170,7 +170,7 @@ window.TRANSLATIONS = {
     'footer.top': '↑ Retour en haut',
 
     /* --- CV --- */
-    'cv.filename': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
+    'cv.filename': 'CV_Abdillahi_DevSecOps-Engineer.pdf',
   },
 
   en: {
@@ -331,7 +331,7 @@ window.TRANSLATIONS = {
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.phoneLabel': 'Phone',
-    'contact.cvFull': 'Download my full resume',
+    'contact.cvFull': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
 
     /* --- FOOTER --- */
     'footer.copy': '© 2026 Abdillahi Mohamed — DevSecOps Engineer ✦',
@@ -339,6 +339,6 @@ window.TRANSLATIONS = {
     'footer.top': '↑ Back to top',
 
     /* --- CV --- */
-    'cv.filename': 'Origin_CV_Abdillahi_DevOps-Engineer-3.pdf',
+    'cv.filename': 'CV_Abdillahi_DevSecOps-Engineer.pdf',
   },
 };
