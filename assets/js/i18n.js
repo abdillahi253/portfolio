@@ -20,7 +20,7 @@ window.TRANSLATIONS = {
     'nav.menuLabel': 'Menu',
 
     /* --- HERO --- */
-    'hero.tag': 'Ingénieur DevSecOps — Disponible Septembre 2026',
+    'hero.tag': 'Ingénieur DevSecOps — Disponible Immédiatement',
     'hero.title': 'Abdillahi<br><em>Mohamed</em>',
     'hero.desc':
       "Expert en automatisation, IaC et CI/CD. Passionné par la fiabilité des plateformes, le scripting Go et l'optimisation des environnements Cloud-Native sous Kubernetes.",
@@ -89,7 +89,7 @@ window.TRANSLATIONS = {
       '<ul><li>Industrialiser les pipelines CI/CD sous GitLab CI pour accélérer les cycles de mise en production.</li><li>Conteneuriser les applications web via Docker afin de standardiser les environnements.</li><li>Superviser les flux et la santé des applications à l\u2019aide de Prometheus et Grafana.</li></ul>',
 
     'exp.job3Date': 'Mai 2023 — Sept. 2023',
-    'exp.job3Role': 'Administrateur Système & Réseaux',
+    'exp.job3Role': 'Support IT',
     'exp.job3Desc':
       "<ul><li>Maintenir et administrer les infrastructures systèmes Linux.</li><li>Sécuriser les accès réseaux et les flux de communication via le protocole RADIUS.</li><li>Rédiger les procédures d'exploitation et d'administration technique pour 120 utilisateurs.</li></ul>",
 
@@ -188,7 +188,7 @@ window.TRANSLATIONS = {
     'nav.menuLabel': 'Menu',
 
     /* --- HERO --- */
-    'hero.tag': 'DevSecOps Engineer — Available September 2026',
+    'hero.tag': 'DevSecOps Engineer — Available ASAP',
     'hero.title': 'Abdillahi<br><em>Mohamed</em>',
     'hero.desc':
       'Automation, IaC and CI/CD specialist. Passionate about platform reliability, Go scripting and optimising Cloud-Native environments on Kubernetes.',
@@ -229,13 +229,12 @@ window.TRANSLATIONS = {
     'skills.title': 'Hard & Soft Skills',
     'skills.hard': 'Hard Skills',
     'skills.soft': 'Soft Skills',
-    'skills.hard1': 'Automation & IaC — Terraform, Ansible, Python, Bash',
+    'skills.hard1': 'Automation & IaC — Terraform, Ansible, Python, Bash, Golang',
     'skills.hard2': 'Orchestration & Cloud — Kubernetes, Helm, Docker, AWS',
     'skills.hard3': 'CI/CD — GitHub Actions, GitLab CI',
     'skills.hard4': 'DevSecOps — SAST/SCA, Coverity, Black Duck, SonarQube, Trivy',
     'skills.hard5': 'Observability — VictoriaMetrics, Grafana, Prometheus',
     'skills.hard6': 'Systems & Networks — Linux, Windows, TCP/IP sockets, REST',
-    'skills.hard7': 'Golang — scripting & tooling',
     'skills.soft1': 'Teamwork',
     'skills.soft2': 'Communication',
     'skills.soft3': 'Curiosity',
