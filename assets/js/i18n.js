@@ -78,7 +78,7 @@ window.TRANSLATIONS = {
     'exp.tag': 'Expériences',
     'exp.title': 'Parcours professionnel',
 
-    'exp.job1Date': 'Sept. 2025 — Août 2026',
+    'exp.job1Date': 'Sept. 2025 — En cours',
     'exp.job1Role': 'Ingénieur DevSecOps',
     'exp.job1Desc':
       "<ul><li>Automatiser le build et le déploiement d'images Yocto complexes, de firmwares applicatifs et des campagnes de tests (SIL, HIL, non-régression).</li><li>Piloter les pipelines CI/CD dans une démarche DevSecOps : sécurité Shift-Left et analyses pilotées par l'IA.</li><li>Déployer une infrastructure de build CI/CD sur AWS basée sur une architecture Runner-as-a-Service (RaaS).</li><li>Déployer et administrer une infrastructure de supervision Grafana et VictoriaMetrics sur AKS.</li></ul>",
@@ -245,7 +245,7 @@ window.TRANSLATIONS = {
     'exp.tag': 'Experience',
     'exp.title': 'Professional background',
 
-    'exp.job1Date': 'Sept. 2025 — Aug. 2026',
+    'exp.job1Date': 'Sept. 2025 — In-Progress',
     'exp.job1Role': 'DevSecOps Engineer',
     'exp.job1Desc':
       '<ul><li>Automating the build and deployment of complex Yocto images, application firmware and test campaigns (SIL, HIL, regression).</li><li>Driving CI/CD pipelines with a DevSecOps mindset: Shift-Left security and AI-driven analysis.</li><li>Deploying a CI/CD build infrastructure on AWS based on a Runner-as-a-Service (RaaS) architecture.</li><li>Deploying and operating a Grafana and VictoriaMetrics monitoring stack on AKS.</li></ul>',
